@@ -1,0 +1,10 @@
+replicaCount: 2
+image:
+  repository: nagarjunacse02/test-image.45
+  tag: latest
+  pullPolicy: Always
+
+service:
+  name: example-app1
+  type: LoadBalancer
+  port: 8080
