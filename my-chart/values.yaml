@@ -1,6 +1,6 @@
 replicaCount: 2
 image:
-  repository: nagarjunacse02/test-image.45
+  repository: nagarjunacse02/test-image.59
   tag: latest
   pullPolicy: Always
 
